@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glass {
+  @apply bg-white/60 backdrop-blur-md shadow-lg shadow-slate-900/5 border border-white/40;
+}
+
+.lead {
+  @apply text-slate-700/90;
+}
+
+.section {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+@layer utilities {
+  .careers-bg {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 244, 228, 0.96) 0%,
+        rgba(240, 185, 96, 0.96) 100%
+      ),
+      radial-gradient(
+        100% 100% at 100% 0%,
+        rgba(255, 204, 150, 0.4) 0%,
+        rgba(255, 204, 150, 0) 70%
+      ),
+      radial-gradient(
+        80% 80% at 0% 100%,
+        rgba(255, 180, 120, 0.25) 0%,
+        rgba(255, 180, 120, 0) 80%
+      );
+    background-blend-mode: normal, screen, soft-light;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+.support-bg {
+    background: linear-gradient(
+      to right,
+      #fbcfe8,
+      #fed7aa,
+      #fef08a
+    );
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .about-bg {
+    background: linear-gradient(
+      120deg,
+      rgba(248, 179, 197, 0.9) 0%,
+      rgba(252, 220, 177, 0.9) 50%,
+      rgba(205, 227, 240, 0.9) 100%
+    );
+    background-blend-mode: normal, screen, soft-light;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .bg-enterprise-apps {
+  background: linear-gradient(
+    135deg,
+    #b3ecff 0%,
+    #7dd3fc 40%,
+    #a78bfa 100%
+  );
+}
+}
