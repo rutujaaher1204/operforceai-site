@@ -93,7 +93,18 @@ export default {
         sans: ['Inter', 'ui-sans-serif', 'system-ui'],
         script: ['Dancing Script', 'cursive'],
         display: ['Playfair Display', 'serif'], 
+         heading: ["Raleway", "sans-serif"],            // main headings
+  body: ["Verdana", "Geneva", "Tahoma", "sans-serif"],  // paragraphs
+  footer: ["Source Sans 3", "sans-serif"],       // footer text
+  decorative: ["Allura", "cursive"],             // AI Payroll, Accounting
+  slogan: ["Homemade Apple", "cursive"],        
       },
+      fontSize: {
+  heading40: "40px",   // for big headings
+  heading32: "32px",   // for decorative
+  body18: "17.6px",    // for paragraph
+  body16: "16px",      // for footer & links
+},
     },
   },
   plugins: [],
