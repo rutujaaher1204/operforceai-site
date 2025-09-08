@@ -1,67 +1,3 @@
-// /** @type {import('tailwindcss').Config} */
-// export default {
-//   content: [
-//     "./index.html",
-//     "./src/**/*.{ts,tsx}",
-//   ],
-//   theme: {
-//     extend: {
-//       backgroundImage: {
-//         'brand-gradient': 'linear-gradient(270deg, #ffdde1, #ee9ca7, #a1c4fd, #c2e9fb, #d4fc79, #96e6a1)',
-//       },
-//       animation: {
-//         'gradient-x': 'gradient-x 15s ease infinite',
-//       },
-//       keyframes: {
-//         'gradient-x': {
-//           '0%, 100%': { 'background-position': '0% 50%' },
-//           '50%': { 'background-position': '100% 50%' },
-//         },
-//       },
-//       fontFamily: {
-//         sans: ['Inter', 'ui-sans-serif', 'system-ui'],
-//         script: ['Dancing Script', 'cursive'],
-//         display: ['Playfair Display', 'serif'], 
-//       },
-//     },
-//   },
-//   plugins: [],
-// }
-
-
-
-// /** @type {import('tailwindcss').Config} */
-// export default {
-//   content: [
-//     "./index.html",
-//     "./src/**/*.{ts,tsx}",
-//   ],
-//   theme: {
-//     extend: {
-//       backgroundImage: {
-//         'brand-gradient': 'linear-gradient(270deg, #ffdde1, #ee9ca7, #a1c4fd, #c2e9fb, #d4fc79, #96e6a1)',
-//       },
-//       animation: {
-//         'gradient-x': 'gradient-x 15s ease infinite',
-//       },
-//       keyframes: {
-//         'gradient-x': {
-//           '0%, 100%': { 'background-position': '0% 50%' },
-//           '50%': { 'background-position': '100% 50%' },
-//         },
-//       },
-//       fontFamily: {
-//         sans: ['Inter', 'ui-sans-serif', 'system-ui'],
-//         script: ['Dancing Script', 'cursive'],
-//         display: ['Playfair Display', 'serif'], 
-//       },
-//     },
-//   },
-//   plugins: [],
-// }
-
-
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -93,17 +29,17 @@ export default {
         sans: ['Inter', 'ui-sans-serif', 'system-ui'],
         script: ['Dancing Script', 'cursive'],
         display: ['Playfair Display', 'serif'], 
-         heading: ["Raleway", "sans-serif"],            // main headings
-  body: ["Verdana", "Geneva", "Tahoma", "sans-serif"],  // paragraphs
-  footer: ["Source Sans 3", "sans-serif"],       // footer text
-  decorative: ["Allura", "cursive"],             // AI Payroll, Accounting
+         heading: ["Raleway", "sans-serif"],            
+  body: ["Verdana", "Geneva", "Tahoma", "sans-serif"],  
+  footer: ["Source Sans 3", "sans-serif"],       
+  decorative: ["Allura", "cursive"],            
   slogan: ["Homemade Apple", "cursive"],        
       },
       fontSize: {
-  heading40: "40px",   // for big headings
-  heading32: "32px",   // for decorative
-  body18: "17.6px",    // for paragraph
-  body16: "16px",      // for footer & links
+  heading40: "40px",   
+  heading32: "32px",   
+  body18: "17.6px",    
+  body16: "16px",      
 },
     },
   },
